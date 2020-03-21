@@ -1,5 +1,13 @@
 # zabbix-glpi
-Integração para abertura de incidentes do servidor zabbix com o sistema de chamado GLPI
+Integração para abertura de incidentes do servidor zabbix com o sistema de chamado GLPI.
+
+O script deve ser colocado no diretorio de execução de scripts externos do zabbix:
+por exemplo:
+/usr/lib/zabbix/externalscripts
+
+Pacotes necessarios:
+python3.6 e o pacotes requests do python
+
 
 Help:
 
